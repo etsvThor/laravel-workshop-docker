@@ -1,5 +1,7 @@
 #!/usr/bin/sh
 
+# Script is retrieved from https://laravel.build/laravel-workshop-blog
+
 docker info > /dev/null 2>&1
 
 # Ensure that Docker is running...
