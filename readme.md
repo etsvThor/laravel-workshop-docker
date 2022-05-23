@@ -20,7 +20,7 @@ Follow the instructions outputted by this script to start your system. Once you 
 
 You can access the locally hosted website by navigating to `localhost` in your browser.
 
-#### Port is laready allocated
+#### Port is aready allocated
 
 If the error "port is already allocated" comes up, you can change the port used by docker to any other port (it is commen to choose a port between 1024 and 65535) and store it in your `.env` file in the root of the laravel project:
 
