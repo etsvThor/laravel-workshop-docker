@@ -8,7 +8,9 @@ The system we use is based on [Laravel Sail](https://laravel.com/docs/9.x/sail).
 ## Installation
 
 First install [Docker desktop](https://www.docker.com/products/docker-desktop/) (if you run Linux, just use your package manager to install the software!), and [Docker compose](https://docs.docker.com/compose/install/), if it was not isntalled with the desktop package.
-Once this is installed successfully, run the script `create_laravel_instance.sh` in a Bash shell (on Windows: open the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install) and navigate to this file):
+Once this is installed successfully, try the command `docker info`. If it gives a lot of permission errors, you can give yourself access to the docker deamon by running the command `sudo usermod -aG docker <your_wsl_name>`. 
+
+Now run the script `create_laravel_instance.sh` in a Bash shell (on Windows: open the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install) and navigate to this file):
 
 ```
 $ ./create_laravel_instance.sh
